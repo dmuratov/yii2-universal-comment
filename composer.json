@@ -1,0 +1,31 @@
+{
+    "name": "dmuratov/yii2-universal-comment",
+    "description": "Universal comment for yii2 framework",
+    "keywords": ["extension", "comment", "yii", "yii2"],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "version": "1.0.0",
+    "authors": [
+        {
+            "name": "Damir Muratov",
+            "email": "insomnia.kzn@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "dmuratov\\comment\\": ""
+        }
+    },
+    "extra": {
+      "asset-installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      },
+      "branch-alias": {
+        "dev-master": "1.0-dev"
+      }
+    }
+}
